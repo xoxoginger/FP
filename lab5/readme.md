@@ -1,0 +1,5 @@
+Определить обычную функцию line-length, вычисляющую длину отрезка - экземпляра класса line. Причем начало отрезка задаётся в полярных координатах (экземпляром polar), а конец - в декартовых (экземпляром cart).
+
+(setq ln (make-instance 'line
+           :start (make-instance 'polar ...)
+           :end (make-instance 'cart ...)))
